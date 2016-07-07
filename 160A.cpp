@@ -26,22 +26,16 @@ int main(){
   coins.push_back(value);
   }
   sort(coins);
-  //hahahahahhaha
-  for (int i = 0; i < coins.size(); ++i)
-  {
-  	cout<<coins.at(i);
-  }
-  cout<<endl;
 
   int take = 0;
   int number = 0;
-  sum /= 2;
-  for(int i = n-1 ; i>=0 ; i--){
+  for(int i = 0 ; i<n ; i++){
   take += coins[i];
   number++;
-  if(take > sum){
+  if(2*take > sum){
   cout<<number<<endl;
   return 0;
   	}
   }
+  return 0;
 }
