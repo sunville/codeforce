@@ -26,6 +26,11 @@ int main(){
   coins.push_back(value);
   }
   sort(coins);
+  for (int i = 0; i < coins.size(); ++i)
+  {
+  	cout<<coins.at(i);
+  }
+  cout<<endl;
   int take = 0;
   int number = 0;
   sum /= 2;
