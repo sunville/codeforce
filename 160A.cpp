@@ -26,7 +26,7 @@ int main(){
   coins.push_back(value);
   }
   sort(coins);
-  //test test
+  //hahahahahhaha
   for (int i = 0; i < coins.size(); ++i)
   {
   	cout<<coins.at(i);
