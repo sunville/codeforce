@@ -2,7 +2,22 @@
 #include <cmath>
 #include <string>
 using namespace std;
+//好蠢的做法。。上网找了个改进版
+/*
+int n;
+    cin >> n;
 
+    int r = 1;
+    while (r * 5 < n)
+    {
+        n -= r * 5;
+        r *= 2;
+    }
+
+    string names[] = {"Sheldon", "Leonard", "Penny", "Rajesh", "Howard"};
+    cout << names[(n - 1) / r] << endl;
+
+*/
 int main(int argc, char const *argv[])
 {
 	string names[5];
