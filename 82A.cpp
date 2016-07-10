@@ -42,6 +42,7 @@ int main(int argc, char const *argv[])
 	}
 	int temp = n - lowerBound;
 	int i;
+	
 	for(i=0;temp > 0;){
 		int start = pow(2,power-1);
 		for(int j=0; j<start ;j++){
